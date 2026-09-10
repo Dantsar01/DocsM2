@@ -3,7 +3,7 @@ The python code for the report is located in `Internship_Report`, the other fold
 ## Important files
 
 - **`1D_Euler_RBFGA_ImplicitSL.py`** — Implicit semi-Lagrangian solver for the 1D isentropic Euler equations in Riemann-invariant form, using RBF-GA interpolation to evaluate R± at departure points. Supports implicit Euler (`ck=0`) and implicit trapezoidal (`ck=1`) departure schemes.
-- **`MGFM_2fluid.py`** — Modified Ghost Fluid Method (MGFM) solver for the 1D isentropic Euler equations with two fluids (Liu, Khoo & Yeo 2003 formulation), coupling a level set, interface Riemann solver, and ghost cell construction.
+- **`MGFM_2fluid.py`** — Modified Ghost Fluid Method (MGFM) solver for the 1D isentropic Euler equations with two fluids (Liu, Khoo & Yeo 2003 formulation), coupling an interface Riemann solver and ghost cell construction.
 
 ## Other files
 
